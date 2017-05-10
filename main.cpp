@@ -3,9 +3,9 @@
 
 int main() {
 
-    int SENSIBILITY=5;
+    int SENSIBILITY=7;
 
-    sf::RenderWindow window(sf::VideoMode(1500,900),"Game");
+    sf::RenderWindow window(sf::VideoMode(1500,900),"Game1.1");
     sf::Sprite sprite1;
     sf::Texture texture1;
 
@@ -53,7 +53,7 @@ int main() {
             }
         }
 
-        window.clear(sf::Color::White);
+        window.clear(sf::Color::Green);
 
 window.draw(sprite1);
 
