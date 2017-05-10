@@ -3,9 +3,9 @@
 
 int main() {
 
-    int SENSIBILITY=7;
+    int SENSIBILITY=6;
 
-    sf::RenderWindow window(sf::VideoMode(1500,900),"Game1.1");
+    sf::RenderWindow window(sf::VideoMode(1508,900),"Game1.1");
     sf::Sprite sprite1;
     sf::Texture texture1;
 
